@@ -62,10 +62,10 @@ while True:
                 currentArray = np.array([x1, y1, x2, y2, conf])
                 detections = np.vstack((detections, currentArray))
 
-    resultsTracker = tracker.update(detections)
+    resultTracker = tracker.update(detections)
 
     cv2.line(img, (limits[0], limits[1]), (limits[2], limits[3]), (0, 0, 255), 5)
-    for result in resultsTracker:
+    for result in resultTracker:
         x1, y1, x2, y2, id = result
         x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
         print(result)

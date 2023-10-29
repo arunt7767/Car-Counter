@@ -12,7 +12,7 @@ User-Friendly Interface: The project includes an intuitive user interface for ea
 
 Technologies Used
 Programming Languages: Python
-Frameworks: OpenCV, TensorFlow
+Frameworks: YOLO, OpenCV, TensorFlow
 Tools: Git, Docker
 
 
